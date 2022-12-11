@@ -1,1 +1,13 @@
-111
+#include <stdio.h>
+#include <math.h>
+
+int main(void) {
+  int mainNum, powerNUM;
+  printf("Give me the number which you want to power::\n");
+  scanf("%d", &mainNum);
+  printf("Power number::\n");
+  scanf("%d", &powerNUM);
+
+  printf("Your answer,sensei:%f", pow(mainNum, powerNUM));
+  return 0;
+}
